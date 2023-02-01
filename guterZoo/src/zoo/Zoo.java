@@ -15,7 +15,7 @@ public class Zoo {
 	}
 
 	/*
-	 * Setter für Korrekturen
+	 * Setter fÃ¼r Korrekturen
 	 */	
 	public void setTiername(String tiername) {
 		this.tiername = tiername;
@@ -26,11 +26,11 @@ public class Zoo {
 	}
 
 	
-	public String getLaut(){
+	public String lautGeben(){
 		return tier.lautGeben();
 	}
 	
-	public String getLaufen(){
+	public String laufen(){
 		return tier.laufen();
 	}
 	
