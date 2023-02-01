@@ -1,3 +1,9 @@
+Version 1.1.1-alpha
+Autor C.Frantzen
+Datum 01.02.2023
+
+Benötigt Java 8 aufgrund printf
+
 Beispiel mit einem Interface + UML-Klassendiagramm zu Schulungszwecken der Interface-Anwendung und Darstellung
 
 -- WARUM INTERFACES? --
