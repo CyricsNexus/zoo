@@ -19,7 +19,7 @@ public class TestZoo {
 		
 		System.out.printf("%s macht '%s' und läuft '%s'.%n", 
 				tier1.getTiername(),
-				tier1.getLaut(),
-				tier1.getLaufen());
+				tier1.lautGeben(),
+				tier1.laufen());
 	}
 }
