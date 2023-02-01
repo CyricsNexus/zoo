@@ -9,8 +9,8 @@ public class TestZoo {
 		Zoo tier1 = new Zoo("Hugo",new Wolf());
 		System.out.printf("%s macht '%s' und läuft '%s'.%n", 
 				tier1.getTiername(),
-				tier1.getLaut(),
-				tier1.getLaufen());
+				tier1.lautGeben(),
+				tier1.laufen());
 				
 		// Sollte die Zuweisung über Schnittstelle iVerhalten neu gesetzt werden, werden die Methoden nun aus der anderen
 		// Klasse genutzt. In diesem Fall werden bei tier1 nun die Methoden aus der Klasse Loewe genutzt
